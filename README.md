@@ -15,6 +15,6 @@ Given the amount of stress people in this fast paced world experience, we provid
 
 # Technology Stack
 
-Backend: Flask, Python, SQL Database, MVC Architecture
-Platform: Android
-APIs: Sentiment-Analysis(text-processing api), praw (Python Wrapper for Reddit)
+* Backend: Flask, Python, SQL Database, MVC Architecture
+* Platform: Android
+* APIs: Sentiment-Analysis(text-processing api), praw (Python Wrapper for Reddit)
