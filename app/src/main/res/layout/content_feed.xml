@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.ritam.dstress.FeedActivity"
     tools:showIn="@layout/app_bar_feed">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:id="@+id/text"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:hint="What good happened today?"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/submit"
+            android:layout_marginRight="10dp"
+            android:text="Submit"/>
+    </LinearLayout>
 
     <ListView
         android:id="@+id/feedList"
@@ -20,4 +40,4 @@
         android:text="Check Activity Window"
         android:textSize="40sp"/>-->
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
