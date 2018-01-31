@@ -13,7 +13,8 @@ Given the amount of stress people in this fast paced world experience, we provid
 4. The user is provided with ideas about acts of kindness that he/she can perform to spread joy and experience satisfaction.
 5. The user’s problem is analysed to detect the sentiment according to which his/her progress is measured.
 
+# Technology Stack
 
-
-
-
+Backend: Flask, Python, SQL Database, MVC Architecture
+Platform: Android
+APIs: Sentiment-Analysis, praw (Python Wrapper for Reddit)
