@@ -17,4 +17,4 @@ Given the amount of stress people in this fast paced world experience, we provid
 
 Backend: Flask, Python, SQL Database, MVC Architecture
 Platform: Android
-APIs: Sentiment-Analysis, praw (Python Wrapper for Reddit)
+APIs: Sentiment-Analysis(text-processing api), praw (Python Wrapper for Reddit)
